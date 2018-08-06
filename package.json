@@ -1,7 +1,7 @@
 {
-  "name": "gulp-lesson",
+  "name": "upwork-first-work",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is work from png to html",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
