@@ -1,4 +1,15 @@
+@import "fonts";
+@import "colors";
+
+@function color($color-name) {
+    @return map-get($map: $colors, $key: $color-name)
+}
+
+h1, h2 {
+    color: color(accent);
+    font-family: Montserrat-Light, sans-serif;
+}
 body {
-    background-color: #3d3d3d;
+    background-color: color(primary);
     font-size: 16px;
 }
